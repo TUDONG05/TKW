@@ -1,0 +1,42 @@
+body{
+    background-color: #A06D21;
+    color: white;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    text-align: center;
+    color: #FFCC00;
+}
+img{
+    background-attachment: fixed;
+    margin: 0px auto;
+}
+p{
+    text-align: left;
+}
+#div1{
+    
+    text-align: center;
+    
+    
+
+}
+.bgimg {
+    position: fixed; 
+    width: 500px;
+    height: 400px;
+    left: 0;
+    right: 0;
+    width: 50vw;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url("vanlytruongthanh.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1; 
+    
+}

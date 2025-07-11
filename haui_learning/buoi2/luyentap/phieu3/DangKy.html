@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+</head>
+<body>
+    <div style="width: 800px; border: 1px solid black;">
+        <h1 style="text-align: center; color: green;">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <form action="dangky.php " method="get"></form>
+        <table align="center" border="1" width = "800px" cellpadding ="5px" cellspacing ="0px" style="background-color: rgb(207, 246, 228);">
+            <tr>
+                <td style="text-align: left;color: green;"><label for="hvt">Họ và tên</label></td>
+                <td><input type="text" name="hvt" id="hvt" autofocus></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;color: green;"><label for="dc">Địa chỉ</label></td>
+                <td><input type="text" name="dc" id="dc"></td>
+                
+            </tr>
+            <tr>
+                <td style="text-align: left;color: green;"><label for="sdt">Số điện thoại</label></td>
+                <td><input type="number" name="std" id="sdt"></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;color: green;"><label for="phai">Phái</label></td>
+                <td>
+                    
+                    <input type="radio" name="phai" id="nam">
+                    <label for="nam">Nam</label>
+                    <input type="radio" name="phai" id="nu">
+                    <label for="nu">Nữ</label>
+                </td>
+                
+                
+            </tr>
+            <tr>
+                <td style="text-align: left;color: green;"><label for="nn">Nghề nghiệp</label></td></td>
+                <td><select name="nn" id="nn">
+                    <option value="gv">Giáo viên</option>
+                    <option value="yt">Y tá</option>
+                    <option value="bd">Bộ đội</option>
+                </select></td>
+                
+            </tr>
+            <tr>
+                <td style="text-align: left;color: green;"><label for="sp">Chọn sản phẩm tham gia</label></td></td>
+                <td>
+                    <select name="sp" id="sp" multiple="4">
+                    <option value="ksr">Kem danh rang</option>
+                    <option value="bg">Bột giặt</option>
+                    <option value="dgd">Dầu gội đầu</option>
+                    <option value="st">Sữa tắm</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="color: green;" ><label for="snguoi">Số người dự đoán tham gia</label></td>
+                <td><input type="number" name="snguoi" id="snguoi"></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" value="Đồng ý">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body
+</html>

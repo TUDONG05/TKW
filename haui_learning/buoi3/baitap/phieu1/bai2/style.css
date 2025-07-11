@@ -1,0 +1,17 @@
+body{
+    background-color:  #FFD2FF;
+}
+
+h1{
+    text-align: center;
+    color:#4CAF50 ;
+}
+p{
+    margin:opx;
+    text-indent: 50px;
+    letter-spacing: 3px;
+}
+div{
+    border: 1px solid black;
+    margin: 0px auto;
+}
